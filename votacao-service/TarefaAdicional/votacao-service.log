@@ -1,0 +1,890 @@
+Microsoft Windows [versão 10.0.19042.867]
+(c) 2020 Microsoft Corporation. Todos os direitos reservados.
+
+C:\projetos-java\votacao-service>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------------< br.com.votacao:votacao-service >-------------------
+[INFO] Building votacao-service 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ votacao-service ---
+[INFO] Deleting C:\projetos-java\votacao-service\target
+[INFO]
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ votacao-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ votacao-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to C:\projetos-java\votacao-service\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ votacao-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\projetos-java\votacao-service\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ votacao-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\projetos-java\votacao-service\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ votacao-service ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.com.votacao.service.VotoServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.981 s - in br.com.votacao.service.VotoServiceTest
+[INFO] Running br.com.votacao.VotacaoApplicationTests
+09:57:47.061 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class br.com.votacao.VotacaoApplicationTests]
+09:57:47.061 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+09:57:47.061 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+09:57:47.108 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [br.com.votacao.VotacaoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+09:57:47.108 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.votacao.VotacaoApplicationTests], using SpringBootContextLoader
+09:57:47.123 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [br.com.votacao.VotacaoApplicationTests]: class path resource [br/com/votacao/VotacaoApplicationTests-context.xml] does not exist
+09:57:47.123 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [br.com.votacao.VotacaoApplicationTests]: class path resource [br/com/votacao/VotacaoApplicationTestsContext.groovy] does not exist
+09:57:47.123 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [br.com.votacao.VotacaoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:57:47.123 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.votacao.VotacaoApplicationTests]: VotacaoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:57:47.170 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.249 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\projetos-java\votacao-service\target\classes\br\com\votacao\VotacaoApplication.class]
+09:57:47.249 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.votacao.VotacaoApplication for test class br.com.votacao.VotacaoApplicationTests
+09:57:47.380 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [br.com.votacao.VotacaoApplicationTests]: using defaults.
+09:57:47.380 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+09:57:47.396 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9255c05, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5da7cee2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@78830d9a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ce4369b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7f829c76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1cb19dba, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c3ebc6b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1931d99, org.springframework.test.context.event.EventPublishingTestExecutionListener@6a9950f1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ad54c55, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@73017a80, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ae7deac, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4a5905d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1a3e5f23, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6293e39e]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.396 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.411 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@33cbfa57 testClass = VotacaoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1d96d872 testClass = VotacaoApplicationTests, locations = '{}', classes = '{class br.com.votacao.VotacaoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@39ce27f2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@28782602, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@56193c7d, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3088660d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@775594f2, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4f8caaf3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+09:57:47.411 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.411 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.votacao.VotacaoApplicationTests]
+09:57:47.442 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2021-03-15 09:57:47.754  INFO 22488 --- [           main] br.com.votacao.VotacaoApplicationTests   : Starting VotacaoApplicationTests using Java 15.0.2 on LAPTOP-7HCHGB3L with PID 22488 (started by eders in C:\projetos-java\votacao-service)
+2021-03-15 09:57:47.754  INFO 22488 --- [           main] br.com.votacao.VotacaoApplicationTests   : No active profile set, falling back to default profiles: default
+2021-03-15 09:57:48.921  INFO 22488 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-15 09:57:49.000  INFO 22488 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2021-03-15 09:57:50.097  INFO 22488 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-15 09:57:50.176  INFO 22488 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-15 09:57:50.222  INFO 22488 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 09:57:50.418  INFO 22488 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 09:57:50.914  INFO 22488 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-15 09:57:50.946  INFO 22488 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Hibernate:
+
+    alter table sessao
+       add constraint FKbc3ehywka7s7yk4j1bb51hgnf
+       foreign key (pauta_id)
+       references pauta (id)
+Hibernate:
+
+    alter table voto
+       add constraint FKfgj7pqu54afvx0dpuf0ecxox5
+       foreign key (pauta_id)
+       references pauta (id)
+2021-03-15 09:57:51.945  INFO 22488 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 09:57:51.967  INFO 22488 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 09:57:53.091  WARN 22488 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-15 09:57:53.496  INFO 22488 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-15 09:57:53.711  INFO 22488 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 09:57:53.974  INFO 22488 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 09:57:54.417  INFO 22488 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 09:57:54.449  INFO 22488 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-15 09:57:54.482  INFO 22488 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 09:57:54.639  INFO 22488 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_1
+2021-03-15 09:57:54.655  INFO 22488 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2021-03-15 09:57:54.686  INFO 22488 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_2
+2021-03-15 09:57:54.686  INFO 22488 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_2
+2021-03-15 09:57:54.717  INFO 22488 --- [           main] br.com.votacao.VotacaoApplicationTests   : Started VotacaoApplicationTests in 7.276 seconds (JVM running for 9.063)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.163 s - in br.com.votacao.VotacaoApplicationTests
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ votacao-service ---
+[INFO] Building jar: C:\projetos-java\votacao-service\target\votacao-service-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot-maven-plugin:2.4.3:repackage (repackage) @ votacao-service ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ votacao-service ---
+[INFO] Installing C:\projetos-java\votacao-service\target\votacao-service-1.0-SNAPSHOT.jar to C:\Users\eders\.m2\repository\br\com\votacao\votacao-service\1.0-SNAPSHOT\votacao-service-1.0-SNAPSHOT.jar
+[INFO] Installing C:\projetos-java\votacao-service\pom.xml to C:\Users\eders\.m2\repository\br\com\votacao\votacao-service\1.0-SNAPSHOT\votacao-service-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.594 s
+[INFO] Finished at: 2021-03-15T09:57:57-03:00
+[INFO] ------------------------------------------------------------------------
+
+C:\projetos-java\votacao-service>cd target
+
+C:\projetos-java\votacao-service\target>dir
+ O volume na unidade C é Windows
+ O Número de Série do Volume é 5CC6-F525
+
+ Pasta de C:\projetos-java\votacao-service\target
+
+15/03/2021  09:57    <DIR>          .
+15/03/2021  09:57    <DIR>          ..
+15/03/2021  09:57    <DIR>          classes
+15/03/2021  09:57    <DIR>          generated-sources
+15/03/2021  09:57    <DIR>          generated-test-sources
+15/03/2021  09:57    <DIR>          maven-archiver
+15/03/2021  09:57    <DIR>          maven-status
+15/03/2021  09:57    <DIR>          surefire-reports
+15/03/2021  09:57    <DIR>          test-classes
+15/03/2021  09:57        58.902.210 votacao-service-1.0-SNAPSHOT.jar
+15/03/2021  09:57            48.822 votacao-service-1.0-SNAPSHOT.jar.original
+               2 arquivo(s)     58.951.032 bytes
+               9 pasta(s)   527.804.878.848 bytes disponíveis
+
+C:\projetos-java\votacao-service\target>java -jar votacao-service-1.0-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2021-03-15 09:58:43.853  INFO 22840 --- [           main] br.com.votacao.VotacaoApplication        : Starting VotacaoApplication v1.0-SNAPSHOT using Java 15.0.2 on LAPTOP-7HCHGB3L with PID 22840 (C:\projetos-java\votacao-service\target\votacao-service-1.0-SNAPSHOT.jar started by eders in C:\projetos-java\votacao-service\target)
+2021-03-15 09:58:43.853  INFO 22840 --- [           main] br.com.votacao.VotacaoApplication        : No active profile set, falling back to default profiles: default
+2021-03-15 09:58:45.739  INFO 22840 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-15 09:58:45.915  INFO 22840 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 3 JPA repository interfaces.
+2021-03-15 09:58:47.695  INFO 22840 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-15 09:58:47.727  INFO 22840 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-15 09:58:47.727  INFO 22840 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 09:58:47.868  INFO 22840 --- [           main] o.a.c.c.C.[.[localhost].[/api-votacao]   : Initializing Spring embedded WebApplicationContext
+2021-03-15 09:58:47.868  INFO 22840 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3882 ms
+2021-03-15 09:58:48.641  INFO 22840 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-15 09:58:48.797  INFO 22840 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-15 09:58:49.110  INFO 22840 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 09:58:49.310  INFO 22840 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 09:58:49.786  INFO 22840 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-15 09:58:49.841  INFO 22840 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Hibernate:
+
+    alter table sessao
+       add constraint FKbc3ehywka7s7yk4j1bb51hgnf
+       foreign key (pauta_id)
+       references pauta (id)
+Hibernate:
+
+    alter table voto
+       add constraint FKfgj7pqu54afvx0dpuf0ecxox5
+       foreign key (pauta_id)
+       references pauta (id)
+2021-03-15 09:58:51.354  INFO 22840 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 09:58:51.375  INFO 22840 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 09:58:52.587  WARN 22840 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-15 09:58:52.931  INFO 22840 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-15 09:58:53.135  INFO 22840 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 09:58:53.369  INFO 22840 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 09:58:53.894  INFO 22840 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-votacao'
+2021-03-15 09:58:53.910  INFO 22840 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 09:58:53.969  INFO 22840 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-15 09:58:54.079  INFO 22840 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 09:58:54.314  INFO 22840 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_1
+2021-03-15 09:58:54.335  INFO 22840 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2021-03-15 09:58:54.391  INFO 22840 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_2
+2021-03-15 09:58:54.407  INFO 22840 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_2
+2021-03-15 09:58:54.463  INFO 22840 --- [           main] br.com.votacao.VotacaoApplication        : Started VotacaoApplication in 11.436 seconds (JVM running for 12.12)
+2021-03-15 09:59:22.827  INFO 22840 --- [nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-votacao]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-15 09:59:22.828  INFO 22840 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-15 09:59:22.835  INFO 22840 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+Hibernate:
+    select
+        voto0_.id as id1_2_,
+        voto0_.cpf as cpf2_2_,
+        voto0_.escolha as escolha3_2_,
+        voto0_.pauta_id as pauta_id4_2_
+    from
+        voto voto0_
+    left outer join
+        pauta pauta1_
+            on voto0_.pauta_id=pauta1_.id
+    where
+        pauta1_.id=?
+Hibernate:
+    select
+        pauta0_.id as id1_0_,
+        pauta0_.nome as nome2_0_
+    from
+        pauta pauta0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        next_val as id_val
+    from
+        pauta_seq for update
+
+Hibernate:
+    update
+        pauta_seq
+    set
+        next_val= ?
+    where
+        next_val=?
+Hibernate:
+    insert
+    into
+        pauta
+        (nome, id)
+    values
+        (?, ?)
+Hibernate:
+    select
+        pauta0_.id as id1_0_,
+        pauta0_.nome as nome2_0_
+    from
+        pauta pauta0_
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+    left outer join
+        pauta pauta1_
+            on sessao0_.pauta_id=pauta1_.id
+    where
+        sessao0_.id=?
+        and pauta1_.id=?
+Hibernate:
+    select
+        voto0_.id as id1_2_,
+        voto0_.cpf as cpf2_2_,
+        voto0_.escolha as escolha3_2_,
+        voto0_.pauta_id as pauta_id4_2_
+    from
+        voto voto0_
+Hibernate:
+    select
+        sessao0_.id as id1_1_0_,
+        sessao0_.data_inicio as data_ini2_1_0_,
+        sessao0_.minutos_validade as minutos_3_1_0_,
+        sessao0_.pauta_id as pauta_id4_1_0_,
+        pauta1_.id as id1_0_1_,
+        pauta1_.nome as nome2_0_1_
+    from
+        sessao sessao0_
+    left outer join
+        pauta pauta1_
+            on sessao0_.pauta_id=pauta1_.id
+    where
+        sessao0_.id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        next_val as id_val
+    from
+        sessao_seq for update
+
+Hibernate:
+    update
+        sessao_seq
+    set
+        next_val= ?
+    where
+        next_val=?
+Hibernate:
+    insert
+    into
+        sessao
+        (data_inicio, minutos_validade, pauta_id, id)
+    values
+        (?, ?, ?, ?)
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        next_val as id_val
+    from
+        sessao_seq for update
+
+Hibernate:
+    update
+        sessao_seq
+    set
+        next_val= ?
+    where
+        next_val=?
+Hibernate:
+    insert
+    into
+        sessao
+        (data_inicio, minutos_validade, pauta_id, id)
+    values
+        (?, ?, ?, ?)
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+    left outer join
+        pauta pauta1_
+            on sessao0_.pauta_id=pauta1_.id
+    where
+        sessao0_.id=?
+        and pauta1_.id=?
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        voto0_.id as id1_2_,
+        voto0_.cpf as cpf2_2_,
+        voto0_.escolha as escolha3_2_,
+        voto0_.pauta_id as pauta_id4_2_
+    from
+        voto voto0_
+    left outer join
+        pauta pauta1_
+            on voto0_.pauta_id=pauta1_.id
+    where
+        pauta1_.id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+    left outer join
+        pauta pauta1_
+            on sessao0_.pauta_id=pauta1_.id
+    where
+        sessao0_.id=?
+        and pauta1_.id=?
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        voto0_.id as id1_2_,
+        voto0_.cpf as cpf2_2_,
+        voto0_.escolha as escolha3_2_,
+        voto0_.pauta_id as pauta_id4_2_
+    from
+        voto voto0_
+    left outer join
+        pauta pauta1_
+            on voto0_.pauta_id=pauta1_.id
+    where
+        pauta1_.id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+    left outer join
+        pauta pauta1_
+            on sessao0_.pauta_id=pauta1_.id
+    where
+        sessao0_.id=?
+        and pauta1_.id=?
+Hibernate:
+    select
+        pauta0_.id as id1_0_,
+        pauta0_.nome as nome2_0_
+    from
+        pauta pauta0_
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    delete
+    from
+        pauta
+    where
+        id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+    left outer join
+        pauta pauta1_
+            on sessao0_.pauta_id=pauta1_.id
+    where
+        pauta1_.id=?
+Hibernate:
+    select
+        voto0_.id as id1_2_,
+        voto0_.cpf as cpf2_2_,
+        voto0_.escolha as escolha3_2_,
+        voto0_.pauta_id as pauta_id4_2_
+    from
+        voto voto0_
+    left outer join
+        pauta pauta1_
+            on voto0_.pauta_id=pauta1_.id
+    where
+        pauta1_.id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_0_,
+        sessao0_.data_inicio as data_ini2_1_0_,
+        sessao0_.minutos_validade as minutos_3_1_0_,
+        sessao0_.pauta_id as pauta_id4_1_0_,
+        pauta1_.id as id1_0_1_,
+        pauta1_.nome as nome2_0_1_
+    from
+        sessao sessao0_
+    left outer join
+        pauta pauta1_
+            on sessao0_.pauta_id=pauta1_.id
+    where
+        sessao0_.id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        voto0_.id as id1_2_,
+        voto0_.cpf as cpf2_2_,
+        voto0_.escolha as escolha3_2_,
+        voto0_.pauta_id as pauta_id4_2_
+    from
+        voto voto0_
+    left outer join
+        pauta pauta1_
+            on voto0_.pauta_id=pauta1_.id
+    where
+        pauta1_.id=?
+Hibernate:
+    select
+        voto0_.id as id1_2_,
+        voto0_.cpf as cpf2_2_,
+        voto0_.escolha as escolha3_2_,
+        voto0_.pauta_id as pauta_id4_2_
+    from
+        voto voto0_
+    left outer join
+        pauta pauta1_
+            on voto0_.pauta_id=pauta1_.id
+    where
+        pauta1_.id=?
+Hibernate:
+    select
+        voto0_.id as id1_2_0_,
+        voto0_.cpf as cpf2_2_0_,
+        voto0_.escolha as escolha3_2_0_,
+        voto0_.pauta_id as pauta_id4_2_0_,
+        pauta1_.id as id1_0_1_,
+        pauta1_.nome as nome2_0_1_
+    from
+        voto voto0_
+    left outer join
+        pauta pauta1_
+            on voto0_.pauta_id=pauta1_.id
+    where
+        voto0_.id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        pauta0_.id as id1_0_,
+        pauta0_.nome as nome2_0_
+    from
+        pauta pauta0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        next_val as id_val
+    from
+        pauta_seq for update
+
+Hibernate:
+    update
+        pauta_seq
+    set
+        next_val= ?
+    where
+        next_val=?
+Hibernate:
+    insert
+    into
+        pauta
+        (nome, id)
+    values
+        (?, ?)
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        next_val as id_val
+    from
+        pauta_seq for update
+
+Hibernate:
+    update
+        pauta_seq
+    set
+        next_val= ?
+    where
+        next_val=?
+Hibernate:
+    insert
+    into
+        pauta
+        (nome, id)
+    values
+        (?, ?)
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        next_val as id_val
+    from
+        pauta_seq for update
+
+Hibernate:
+    update
+        pauta_seq
+    set
+        next_val= ?
+    where
+        next_val=?
+Hibernate:
+    insert
+    into
+        pauta
+        (nome, id)
+    values
+        (?, ?)
+Hibernate:
+    select
+        sessao0_.id as id1_1_,
+        sessao0_.data_inicio as data_ini2_1_,
+        sessao0_.minutos_validade as minutos_3_1_,
+        sessao0_.pauta_id as pauta_id4_1_
+    from
+        sessao sessao0_
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+2021-03-15 10:37:58.976 ERROR 22840 --- [nio-8080-exec-8] b.c.votacao.domain.ApiExceptionHandler   : error-1
+
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'SIM': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'SIM': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 17]
+        at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:387) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:342) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:186) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:158) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:131) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.43.jar!/:4.0.FR]
+        at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.4.jar!/:5.3.4]
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.43.jar!/:4.0.FR]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93) ~[spring-boot-actuator-2.4.3.jar!/:2.4.3]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar!/:5.3.4]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+        at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar!/:9.0.43]
+        at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'SIM': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 3, column: 17]
+        at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3588) ~[jackson-core-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2683) ~[jackson-core-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1089) ~[jackson-core-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:378) ~[jackson-databind-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:164) ~[jackson-databind-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4526) ~[jackson-databind-2.11.4.jar!/:2.11.4]
+        at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3521) ~[jackson-databind-2.11.4.jar!/:2.11.4]
+        at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:376) ~[spring-web-5.3.4.jar!/:5.3.4]
+        ... 55 common frames omitted
+
+Hibernate:
+    select
+        pauta0_.id as id1_0_0_,
+        pauta0_.nome as nome2_0_0_
+    from
+        pauta pauta0_
+    where
+        pauta0_.id=?
+2021-03-15 11:03:08.338  INFO 22840 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 11:03:08.370  INFO 22840 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 11:03:08.417  INFO 22840 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-15 11:03:08.449  INFO 22840 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+C:\projetos-java\votacao-service\target>java -jar votacao-service-1.0-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2021-03-15 11:18:24.720  INFO 25024 --- [           main] br.com.votacao.VotacaoApplication        : Starting VotacaoApplication v1.0-SNAPSHOT using Java 15.0.2 on LAPTOP-7HCHGB3L with PID 25024 (C:\projetos-java\votacao-service\target\votacao-service-1.0-SNAPSHOT.jar started by eders in C:\projetos-java\votacao-service\target)
+2021-03-15 11:18:24.725  INFO 25024 --- [           main] br.com.votacao.VotacaoApplication        : No active profile set, falling back to default profiles: default
+2021-03-15 11:18:26.514  INFO 25024 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-15 11:18:26.646  INFO 25024 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 3 JPA repository interfaces.
+2021-03-15 11:18:28.429  INFO 25024 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-15 11:18:28.453  INFO 25024 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-15 11:18:28.453  INFO 25024 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 11:18:28.605  INFO 25024 --- [           main] o.a.c.c.C.[.[localhost].[/api-votacao]   : Initializing Spring embedded WebApplicationContext
+2021-03-15 11:18:28.605  INFO 25024 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3728 ms
+2021-03-15 11:18:29.399  INFO 25024 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-15 11:18:29.567  INFO 25024 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-15 11:18:29.887  INFO 25024 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 11:18:30.124  INFO 25024 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 11:18:30.640  INFO 25024 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-15 11:18:30.687  INFO 25024 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Hibernate:
+
+    alter table sessao
+       add constraint FKbc3ehywka7s7yk4j1bb51hgnf
+       foreign key (pauta_id)
+       references pauta (id)
+Hibernate:
+
+    alter table voto
+       add constraint FKfgj7pqu54afvx0dpuf0ecxox5
+       foreign key (pauta_id)
+       references pauta (id)
+2021-03-15 11:18:32.271  INFO 25024 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 11:18:32.292  INFO 25024 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 11:18:33.413  WARN 25024 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-15 11:18:33.671  INFO 25024 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-15 11:18:33.843  INFO 25024 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 11:18:34.046  INFO 25024 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 11:18:34.460  INFO 25024 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-votacao'
+2021-03-15 11:18:34.460  INFO 25024 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 11:18:34.508  INFO 25024 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-15 11:18:34.604  INFO 25024 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:18:34.794  INFO 25024 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_1
+2021-03-15 11:18:34.802  INFO 25024 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2021-03-15 11:18:34.842  INFO 25024 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_2
+2021-03-15 11:18:34.850  INFO 25024 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_2
+2021-03-15 11:18:34.890  INFO 25024 --- [           main] br.com.votacao.VotacaoApplication        : Started VotacaoApplication in 10.988 seconds (JVM running for 11.792)
+2021-03-15 11:22:09.283  INFO 25024 --- [nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-votacao]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-15 11:22:09.283  INFO 25024 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-15 11:22:09.291  INFO 25024 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
